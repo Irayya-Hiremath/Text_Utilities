@@ -25,7 +25,7 @@ var convertUpper;
         character = e.target.value;
         let words = character.split(" "); 
          charLength.innerHTML =  "Number of Characters" +  " " + character.length + " " +"Number of words" +" " +words.length;
-         timetoRead.innerHTML =  "Time to read  wordsds" + " " + words.length*0.008
+         timetoRead.innerHTML =  "Time to read  words" + " " + words.length*0.008
         //   console.log(word.length);
         //   console.log(word.split().length);
     }
